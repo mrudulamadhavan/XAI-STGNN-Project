@@ -1,0 +1,31 @@
+# Core libraries
+numpy==1.23.5
+pandas==1.5.3
+scipy==1.8.0
+matplotlib==3.6.2
+scikit-learn==1.3.2
+
+# Geospatial and visualization
+geopy==2.3.0
+keplergl==0.3.2
+
+# HDF5 support
+tables==3.8.0
+
+# PyTorch with CUDA 11.7 support
+--extra-index-url https://download.pytorch.org/whl/cu117
+torch==2.0.0+cu117
+
+# Agentic / Graph-based AI frameworks
+langchain==0.1.20
+langgraph==0.0.34
+
+# Optional but recommended
+jupyterlab
+ipython
+seaborn
+
+dotenv
+google-generativeai
+
+folium
